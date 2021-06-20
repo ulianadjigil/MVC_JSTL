@@ -24,13 +24,7 @@ public class Methods {
                 jkl = o;
             }
         }
-        for (Iterator j = kpi.getFaculties().iterator(); j.hasNext();){
-            Faculty o = (Faculty) j.next();
-            if (o.getStudents().size() < studentsnumber){
-                studentsnumber = o.getStudents().size();
-                jkl = o;
-            }
-        }
+       
         return(jkl.getName());
     }
 
@@ -38,7 +32,7 @@ public class Methods {
         ArrayList<Student> studentBest = new ArrayList<>();
         for (Faculty curFaculty : kpi.getFaculties()) {
             for (Student curStudent : curFaculty.getStudents()){
-                if (curStudent.getScore() < 60 ){
+                if (curStudent.getScore() > 95 ){
                     studentBest.add(curStudent);
                 }
             }
