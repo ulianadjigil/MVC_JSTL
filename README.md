@@ -5,17 +5,21 @@
 <img src="https://user-images.githubusercontent.com/85234616/122688843-3d5d1500-d227-11eb-8c26-5842d927fea7.jpg" width="500">
 
 ## Solution
-In **index.jsp** we can enter into the input only numbers with no more than 3 numbers after the decimal point. When user has sent filled form, action **TestServlet** starts.
+Our structure:
 
-<img width="690" alt="Снимок экрана 2021-06-14 в 00 58 21" src="https://user-images.githubusercontent.com/85234616/121823092-ad115400-ccab-11eb-8ea8-41be820fff89.png">
+<img width="288" alt="Снимок экрана 2021-06-21 в 01 15 57" src="https://user-images.githubusercontent.com/85234616/122689850-5a491680-d22e-11eb-8773-d371658d218f.png">
 
-DoPost method is used in the servlet to process the request.
+In **MyModel.java** we can get information about our students, faculties and institute using **getBase()** method. 
 
-<img width="690" alt="Снимок экрана 2021-06-14 в 01 21 40" src="https://user-images.githubusercontent.com/85234616/121823585-e3040780-ccae-11eb-99c9-906fc24a63aa.png">
+<img width="684" alt="Снимок экрана 2021-06-21 в 01 20 04" src="https://user-images.githubusercontent.com/85234616/122689963-efe4a600-d22e-11eb-8b4a-51a72813d01f.png">
 
-Result is calculated by the formula and checked for  the acceptability of the parameters. Servlet sends the response to index.jsp to the field.
+In **Controllers** we have 3 servlets. Each of them is responsible for a specific task. Servlet uses the method depends on the task, sends the required data and redirects user to the appropriate page.
 
-<img width="690" alt="Снимок экрана 2021-06-14 в 01 00 23" src="https://user-images.githubusercontent.com/85234616/121823688-93720b80-ccaf-11eb-8a22-04b69fc38c0e.png">
+<img width="644" alt="Снимок экрана 2021-06-21 в 01 33 37" src="https://user-images.githubusercontent.com/85234616/122690187-bb71e980-d230-11eb-8c64-1b1f9c4a1b2e.png">
+
+In **Views** we have JSP pages, which are responsible for showing result. 
+
+<img width="756" alt="Снимок экрана 2021-06-21 в 01 39 05" src="https://user-images.githubusercontent.com/85234616/122690318-8023ea80-d231-11eb-9b34-d94046e4a984.png">
 
 
 
