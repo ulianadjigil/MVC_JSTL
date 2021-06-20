@@ -20,6 +20,9 @@ Result is calculated by the formula and checked for  the acceptability of the pa
 
 
 ## Result
-<img width="392" alt="Снимок экрана 2021-06-13 в 23 31 13" src="https://user-images.githubusercontent.com/85234616/121822985-03ca5e00-ccab-11eb-8b13-ab6fe9d2ca1b.png">
-<img width="403" alt="Снимок экрана 2021-06-13 в 23 31 55" src="https://user-images.githubusercontent.com/85234616/121822989-07f67b80-ccab-11eb-96cd-bf729414462b.png">
+
+<img width="220" alt="Снимок экрана 2021-06-21 в 00 54 13" src="https://user-images.githubusercontent.com/85234616/122689477-68496800-d22b-11eb-8b7f-0e8a48bea044.png">
+<img width="181" alt="Снимок экрана 2021-06-21 в 00 48 34" src="https://user-images.githubusercontent.com/85234616/122689487-7dbe9200-d22b-11eb-9ff9-1c8964e72c1c.png">
+<img width="246" alt="Снимок экрана 2021-06-21 в 00 48 42" src="https://user-images.githubusercontent.com/85234616/122689492-844d0980-d22b-11eb-9690-d1f6d3b818c0.png">
+<img width="239" alt="Снимок экрана 2021-06-21 в 00 48 50" src="https://user-images.githubusercontent.com/85234616/122689493-8b741780-d22b-11eb-96c2-4594cb9214de.png">
 
